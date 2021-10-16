@@ -8,11 +8,9 @@
 #
 
 library(shiny)
-library(BrimleyCalculator)
-
-if (!require("BrimleyCalculator")) {
-  devtools::install_github("MartinLBarron/BrimleyCalculator")
-}
+# if (!require("BrimleyCalculator")) {
+#   devtools::install_github("MartinLBarron/BrimleyCalculator")
+# }
 library(BrimleyCalculator)
 
 
